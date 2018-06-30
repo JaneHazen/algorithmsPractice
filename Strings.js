@@ -89,7 +89,79 @@ function isPermutationOfPalindrome(str){
     return (countOdd <= 1);
 }
 
-console.log(testIsPermutationOfPalindrome())
+console.log(testIsPermutationOfPalindrome());
+
+// Write a method to see if two strings are one edit away (by adding, subtracting, or replacing one letter)
+
+function testOneAwayReplace(){
+    let string1 = "pale"
+    let string2 = "bale"
+    let expected = true;
+    return (expected === isOneAway(string1, string2));
+}
+
+function testOneAwayEditSubtract(){
+    let string1 = "pale"
+    let string2 = "ale"
+    let expected = true;
+    return (expected === isOneAway(string1, string2));
+}
+
+function testOneAwayEditIncrease(){
+    let string1 = "pale"
+    let string2 = "pales"
+    let expected = true;
+    return (expected === isOneAway(string1, string2));
+}
+
+function isOneAway(str1, str2){
+    if(str1.length === str2.length){
+        return oneAwayReplace(str1, str2);
+    }
+    if(str1.length + 1 === str2.length){
+        return oneAwayEdit(str1, str2);
+    }
+    if(str1.length === str2.length + 1){
+        return oneAwayEdit(str2, str1);
+    }
+    return false;
+}
+
+function oneAwayEdit(short, long){
+    let index1 = 0;
+    let index2 = 0;
+    while(index2 < long.length && index1 < short.length){
+        if(short.charAt(index1) !== long.charAt(index2)){
+            if (index1 !== index2){
+                return false;
+            }
+            index2++;
+        } else {
+            index1++;
+            index2++;
+        }
+    }
+    return true;
+}
+
+function oneAwayReplace(str1, str2){
+    let differences = false;
+    for(let i = 0; i < str1.length; i++){
+        if(differences){
+            if(str1[i] !== str2[i]){
+                return false;
+            }
+        }
+        if(str1[i] !== str2[i]){
+            differences = true
+        }
+    }
+    return differences;
+}
+
+console.log(testOneAwayReplace());
+console.log(testOneAwayEditSubtract());
+console.log(testOneAwayEditIncrease());
 
 /// Write a method that outputs the number of each letter in a string as a string
 

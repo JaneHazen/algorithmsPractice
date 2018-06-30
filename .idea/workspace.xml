@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0758e5e4-c930-48ab-85f0-c504a2dbe38a" name="Default" comment="adding to the strings">
+    <list default="true" id="0758e5e4-c930-48ab-85f0-c504a2dbe38a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Strings.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="Strings.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Strings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="310">
+              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -42,6 +43,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,7 +126,7 @@
       <updated>1529514568107</updated>
       <workItem from="1529514569501" duration="6791000" />
       <workItem from="1530389851674" duration="1850000" />
-      <workItem from="1530392510460" duration="633000" />
+      <workItem from="1530392510460" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -129,11 +135,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530391714339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix spelling">
+      <created>1530394153782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530394153782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix spelling">
+      <created>1530394376783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530394376783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9274000" />
+    <option name="totallyTimeSpent" value="10829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -166,7 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding to the strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding to the strings" />
+    <MESSAGE value="fix spelling" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix spelling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -206,8 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Strings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="310">
+          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
         </state>
       </provider>
     </entry>
