@@ -66,10 +66,10 @@ console.log(spacey);
 function testIsPermentationOfPalindrome(){
     let string1 = "Tact Coa"
     let expected = true;
-    return (expected = isPermentationOfPalendrome(string1));
+    return (expected = isPermentationOfPalindrome(string1));
 }
 
-function isPermentationOfPalendrome(str){
+function isPermentationOfPalindrome(str){
     str = str.replace(/ /g, "");
     let countEachLetter = {};
     let countOdd = 0;
