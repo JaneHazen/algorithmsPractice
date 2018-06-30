@@ -3,20 +3,19 @@
 let allUniqueCharacters = "1, 2, 3, a, b, c, d, h";
 
 function testFindIfAllUnique(str){
-    let expected = true
+    let expected = true;
     let actual = findIfAllUnique(allUniqueCharacters);
     return expected === actual;
 }
 
 function findIfAllUnique(str){
     let theString = str.replace(/ /g,"").split("").sort();
-    for(let i=0; i < theString.length; i ++){
-        if(theString[i] === theString[i+1]){
+    for(let i=0; i < theString.length; i++){
+        if (theString[i] === theString[i+1]){
             return false;
         }
-        return true
     }
-
+    return true;
 }
 
 let split = testFindIfAllUnique();
@@ -33,15 +32,10 @@ function testPermutations(){
     return expected === actual;
 }
 
-function findIfPermutations(str){
-    let theString = str.replace(/ /g,"").split("").sort();
-    for(let i=0; i < theString.length; i ++){
-        if(theString[i] === theString[i+1]){
-            return false;
-        }
-        return true
-    }
-
+function findIfPermutations(str1, str2){
+    let theString = str1.replace(/ /g,"").split("").sort();
+    let secondString = str2.replace(/ /g,"").split("").sort();
+    return (theString === secondString);
 }
 
 let permutable = testPermutations();
@@ -65,6 +59,37 @@ function spaceMaker(str){
 
 let spacey = testSpaceMaker();
 console.log(spacey);
+
+
+/// Write a method to see if a string is a permentation of a palindrome
+
+function testIsPermentationOfPalindrome(){
+    let string1 = "Tact Coa"
+    let expected = true;
+    return (expected = isPermentationOfPalendrome(string1));
+}
+
+function isPermentationOfPalendrome(str){
+    str = str.replace(/ /g, "");
+    let countEachLetter = {};
+    let countOdd = 0;
+    for(letter of str){
+        letter = letter.toLowerCase();
+        if(!countEachLetter[letter]){
+            countEachLetter[letter] = 1;
+        } else {
+            countEachLetter[letter] += 1;
+        }
+        if(countEachLetter[letter] % 2 === 0){
+            countOdd--
+        } else {
+            countOdd++
+        }
+    }
+    return (countOdd <= 1);
+}
+
+console.log(testIsPermentationOfPalindrome())
 
 /// Write a method that outputs the number of each letter in a string as a string
 
