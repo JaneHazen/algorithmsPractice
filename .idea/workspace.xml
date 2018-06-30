@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0758e5e4-c930-48ab-85f0-c504a2dbe38a" name="Default" comment="adding to the strings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Strings.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="Strings.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Strings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="180" selection-end-column="34" />
+            <state relative-caret-position="391">
+              <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -63,7 +63,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -120,6 +120,7 @@
       <updated>1529514568107</updated>
       <workItem from="1529514569501" duration="6791000" />
       <workItem from="1530389851674" duration="1850000" />
+      <workItem from="1530392510460" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -132,10 +133,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8641000" />
+    <option name="totallyTimeSpent" value="9274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2467448" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -149,8 +151,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -176,6 +178,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Strings.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="180" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
@@ -190,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Strings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="180" selection-end-column="34" />
+        <state relative-caret-position="391">
+          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
         </state>
       </provider>
     </entry>

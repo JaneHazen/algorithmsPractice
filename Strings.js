@@ -61,15 +61,15 @@ let spacey = testSpaceMaker();
 console.log(spacey);
 
 
-/// Write a method to see if a string is a permentation of a palindrome
+/// Write a method to see if a string is a permutation of a palindrome
 
-function testIsPermentationOfPalindrome(){
+function testIsPermutationOfPalindrome(){
     let string1 = "Tact Coa"
     let expected = true;
-    return (expected = isPermentationOfPalindrome(string1));
+    return (expected === isPermutationOfPalindrome(string1));
 }
 
-function isPermentationOfPalindrome(str){
+function isPermutationOfPalindrome(str){
     str = str.replace(/ /g, "");
     let countEachLetter = {};
     let countOdd = 0;
@@ -89,7 +89,7 @@ function isPermentationOfPalindrome(str){
     return (countOdd <= 1);
 }
 
-console.log(testIsPermentationOfPalindrome())
+console.log(testIsPermutationOfPalindrome())
 
 /// Write a method that outputs the number of each letter in a string as a string
 
@@ -116,7 +116,7 @@ function Compresser(str){
     let answer = "";
     let allTheKeys = Object.keys(theAnswer);
     for(let oneKey of allTheKeys){
-        answer += oneKey
+        answer += oneKey;
         answer += theAnswer[oneKey].toString();
     }
 
