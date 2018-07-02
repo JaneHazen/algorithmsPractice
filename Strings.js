@@ -170,11 +170,11 @@ let compressed = "a5b1c4";
 
 function testCompresser(){
     let expected = compressed;
-    let actual = Compresser(decompressed);
+    let actual = this.compresser(decompressed);
     return expected === actual;
 }
 
-function Compresser(str){
+function compresser(str){
     let theString = str.split("");
     let theAnswer = {};
     for(let character of theString){
@@ -209,14 +209,14 @@ function testSortByStrings1(){
     let s = "weather";
     let t = "therapyw";
     let expected = "theeraw";
-    return expected === sortByStrings(s, t);
+    return expected === this.sortByStrings(s, t);
 }
 
 function testSortByStrings2(){
     let s = "good";
     let t = "odg";
     let expected = "oodg";
-    return expected === sortByStrings(s, t);
+    return expected === this.sortByStrings(s, t);
 }
 
 function sortByStrings(str1, str2){
@@ -251,3 +251,26 @@ let testSortByStringsTwo = testSortByStrings2();
 
 console.log(testSortByStringsOne);
 console.log(testSortByStringsTwo);
+
+
+//Find the length of the last word in a string-- if it's a space, should be 0
+
+function lengthOfLastWord(s) {
+    let fullString = s.trim();
+    let length = 0;
+    for(letter of fullString){
+        if(letter === " "){
+            length = 0;
+        }else {
+            length++;
+        }
+    }
+    return length;
+};
+
+function testLengthOflastWord(){
+    let expected = 5;
+    return(expected === this.lengthOfLastWord(" animal sauce "));
+}
+
+console.log(testLengthOflastWord());
