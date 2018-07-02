@@ -170,7 +170,7 @@ let compressed = "a5b1c4";
 
 function testCompresser(){
     let expected = compressed;
-    let actual = this.compresser(decompressed);
+    let actual = compresser(decompressed);
     return expected === actual;
 }
 
@@ -209,14 +209,14 @@ function testSortByStrings1(){
     let s = "weather";
     let t = "therapyw";
     let expected = "theeraw";
-    return expected === this.sortByStrings(s, t);
+    return expected === sortByStrings(s, t);
 }
 
 function testSortByStrings2(){
     let s = "good";
     let t = "odg";
     let expected = "oodg";
-    return expected === this.sortByStrings(s, t);
+    return expected === sortByStrings(s, t);
 }
 
 function sortByStrings(str1, str2){
@@ -274,3 +274,32 @@ function testLengthOflastWord(){
 }
 
 console.log(testLengthOflastWord());
+
+// sort an array with three numbers so [2, 0, 2, 1, 1, 0] becomes [0, 0, 1, 2, 2];
+function sortColors(array) {
+    let sortedArray = [];
+    let midpoint = 0;
+    for(element of array){
+        let last = sortedArray[sortedArray.length -1];
+        if(sortedArray.length < 1){
+            sortedArray.push(element);
+        }
+        if(last > element && sortedArray[0] >= element){
+            sortedArray.splice(0, 0, element);
+        } else if(last <= element && sortedArray[0] < element){
+            sortedArray.splice(last, 0, element);
+        }
+        if(sortedArray[0] !== element && last !== element ){
+            sortedArray.splice(midpoint, 0, element);
+        }
+        midpoint = Math.floor(sortedArray.length /2);
+    }
+    return sortedArray
+};
+
+function testSortColors(){
+    let expected = [0,0,1,1,2,2];
+    return(expected.toString() === sortColors([2,0,2,1,1,0]).toString());
+}
+
+console.log(testSortColors());

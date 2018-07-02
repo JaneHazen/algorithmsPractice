@@ -29,8 +29,8 @@
       <file leaf-file-name="Strings.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Strings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+            <state relative-caret-position="2299">
+              <caret line="277" column="82" selection-start-line="277" selection-start-column="82" selection-end-line="277" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,7 @@
       <updated>1529514568107</updated>
       <workItem from="1529514569501" duration="6791000" />
       <workItem from="1530389851674" duration="1850000" />
-      <workItem from="1530392510460" duration="2188000" />
+      <workItem from="1530392510460" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -149,11 +149,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530394376783</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add OneAway String method">
+      <created>1530397426717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530397426717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add LengthOfLastWord Method">
+      <created>1530491425950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530491425950</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10829000" />
+    <option name="totallyTimeSpent" value="12276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -187,7 +201,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding to the strings" />
     <MESSAGE value="fix spelling" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix spelling" />
+    <MESSAGE value="Add OneAway String method" />
+    <MESSAGE value="Add LengthOfLastWord Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LengthOfLastWord Method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -227,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Strings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        <state relative-caret-position="2299">
+          <caret line="277" column="82" selection-start-line="277" selection-start-column="82" selection-end-line="277" selection-end-column="82" />
         </state>
       </provider>
     </entry>
