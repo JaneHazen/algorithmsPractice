@@ -136,3 +136,18 @@ function findSubArrays(arr){
 let split = findSubArrays(sumOfArrays);
 console.log(split);
 
+//Given an array where you can increment all but one item for each move, how many moves until they are all equal?
+
+var minMoves = function(array) {
+    let length = array.length;
+    arraySum = 0;
+    smallest = array[0];
+    for(let i = 0; i < length; i++){
+        if(array[i] < smallest)
+            smallest = array[i];
+        arraySum += array[i];
+    }
+
+    return arraySum - length * smallest;
+};
+
