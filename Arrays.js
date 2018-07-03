@@ -151,3 +151,27 @@ var minMoves = function(array) {
     return arraySum - length * smallest;
 };
 
+///Given an array with zeros, move all the zeros to the end of the array
+
+function moveZeros(array) {
+    let zeros = []
+    for(let i = 0; i < array.length; i++){
+        let element = array[i];
+        if(element === 0){
+            let temp = element;
+            array.splice(i, 1);
+            zeros.push(temp);
+        }
+    }
+    let solution = array.concat(zeros)
+    return solution
+};
+
+function testmoveZeros(){
+    let input = [0,1,0,3,12];
+    let expected = [1,3,12,0,0];
+    return moveZeros(input).toString() === expected.toString();
+}
+
+console.log(testmoveZeros());
+
