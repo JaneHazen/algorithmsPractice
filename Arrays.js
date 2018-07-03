@@ -175,3 +175,24 @@ function testmoveZeros(){
 
 console.log(testmoveZeros());
 
+/// without making a new array
+function moveZeros(array) {
+    for(let i = array.length; i >= 0; i--){
+        let element = array[i];
+        if(element === 0){
+            let temp = element;
+            array.splice(i, 1);
+            array.push(element)
+        }
+    }
+    return array
+};
+
+function testmoveZeros(){
+    let input = [0,1,0,3,12];
+    let expected = [1,3,12,0,0];
+    return moveZeros(input).toString() === expected.toString();
+}
+
+console.log(testmoveZeros());
+
