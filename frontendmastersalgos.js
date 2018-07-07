@@ -16,14 +16,22 @@ const uniqSort = function(array){
 
 uniqSort(input);
 
+
 let input = 5
+let cache = {}
+
 const factorial = (n) => {
+    if(cache[n]){
+        return cache[n]
+    }
     let total = 1
     for(let i = n; i > 0; i--){
         console.log(total);
         total *= i
     }
+    cache[n] = total
     return total
 }
 
 factorial(input);
+console.log(cache);
