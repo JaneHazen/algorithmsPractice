@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+              <caret line="163" column="36" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -154,7 +154,7 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="1532000" />
+      <workItem from="1530979594960" duration="2724000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -254,11 +254,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530986769283</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="FEM recursive factorial">
+      <created>1530987073471</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530987073471</updated>
+    </task>
+    <task id="LOCAL-00016" summary="FEM recursive factorial memoization">
+      <created>1530998765219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530998765219</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21146000" />
+    <option name="totallyTimeSpent" value="22338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -303,7 +317,9 @@
     <MESSAGE value="fem factorial with cache" />
     <MESSAGE value="fem factorial with cache generic" />
     <MESSAGE value="FEM recursive functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM recursive functions" />
+    <MESSAGE value="FEM recursive factorial" />
+    <MESSAGE value="FEM recursive factorial memoization" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM recursive factorial memoization" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -440,7 +456,7 @@
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <caret line="163" column="36" selection-start-line="163" selection-start-column="36" selection-end-line="163" selection-end-column="36" />
         </state>
       </provider>
     </entry>

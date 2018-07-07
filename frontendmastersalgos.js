@@ -135,3 +135,30 @@ const factorial = memoize(
     })
 
 console.log(factorial(5))
+
+
+const memoize = (fn) => {
+    let cache = {};
+    return(...args) => {
+        let n = args[0];
+        let y = args[1];
+        if(n in cache){
+            return cache[n];
+        } else {
+            let result = fn(n, y);
+            cache[n] = result;
+            return result;
+        }
+    }
+}
+const linear = memoize(
+    (array, item) => {
+        for(let i = 0; i < array.length; i++){
+            if(array[i] === item){
+                return i;
+            }
+        }
+        return "none found"
+    })
+
+console.log(linear([5, 3, 2, 1], 1))
