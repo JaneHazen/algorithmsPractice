@@ -83,3 +83,17 @@ function findFactorial(n){
 
 const factorial = memoizedClosureFactorial(findFactorial)
 console.log(factorial(5))
+///////////// RECURSION
+
+let input = 5
+
+const recursiveLoop = (n) => {
+    console.log(n, "is n!");
+    if(n <= 1){
+        return "complete!"
+    }
+    return recursiveLoop(n-1)
+}
+
+
+const recursive = recursiveLoop(5)
