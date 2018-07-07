@@ -182,3 +182,39 @@ function binarySearch(list, item){
 }
 
 binarySearch([1, 3, 6, 8, 12, 14], 12)
+
+
+/// MERGE SORT
+
+function mergeSort(list){
+    if (list.length === 1) {
+        return list;
+    }
+
+    const midpoint = Math.floor(list.length /2);
+    const left = list.slice(0, midpoint);
+    const right = list.slice(midpoint);
+
+    return merge(
+        mergeSort(left),
+        mergeSort(right)
+    )
+}
+
+function merge(left, right) {
+    let result = [];
+    let indexLeft = 0;
+    let indexRight = 0;
+    while (indexLeft < left.length && indexRight < right.length) {
+        if(left[indexLeft] < right[indexRight]){
+            result.push(left[indexLeft])
+            indexLeft++
+        }else {
+            result.push(right[indexRight])
+            indexRight++
+        }
+    }
+    return result.concat(left.slice(indexLeft)).concat(right.slice(indexRight));
+}
+
+mergeSort([1, 3, 6, 8, 12, 14])
