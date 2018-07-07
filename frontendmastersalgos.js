@@ -15,3 +15,15 @@ const uniqSort = function(array){
 }
 
 uniqSort(input);
+
+let input = 5
+const factorial = (n) => {
+    let total = 1
+    for(let i = n; i > 0; i--){
+        console.log(total);
+        total *= i
+    }
+    return total
+}
+
+factorial(input);
