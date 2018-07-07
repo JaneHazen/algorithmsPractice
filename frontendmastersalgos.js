@@ -55,4 +55,5 @@ const memoizedClosureFactorial = () => {
     }
 }
 
-console.log(memoizedClosureFactorial(5))
+const factorial = memoizedClosureFactorial()
+console.log(factorial(5))
