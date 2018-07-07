@@ -35,3 +35,24 @@ const factorial = (n) => {
 
 factorial(input);
 console.log(cache);
+
+let input = 5
+
+const memoizedClosureFactorial = () => {
+    let cache = {};
+    return (n) => {
+        if(n in cache){
+            return cache[n]
+        } else {
+            let total = 1
+            for(let i = n; i > 0; i--){
+                console.log(total);
+                total *= i
+            }
+            cache[n] = total
+            return total
+        }
+    }
+}
+
+console.log(memoizedClosureFactorial(5))
