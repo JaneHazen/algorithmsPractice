@@ -162,3 +162,23 @@ const linear = memoize(
     })
 
 console.log(linear([5, 3, 2, 1], 1))
+
+
+function binarySearch(list, item){
+    let min = 0;
+    let max = list.length;
+    while( min <= max ){
+        let midpoint = Math.floor((min + max )/2);
+        if(list[midpoint] === item){
+            return midpoint
+        } else {
+            if(item < list[midpoint]){
+                max = midpoint - 1;
+            } else {
+                min = midpoint + 1;
+            }
+        }
+    }
+}
+
+binarySearch([1, 3, 6, 8, 12, 14], 12)
