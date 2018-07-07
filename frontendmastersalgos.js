@@ -97,3 +97,16 @@ const recursiveLoop = (n) => {
 
 
 const recursive = recursiveLoop(5)
+
+
+const recursiveFactorial = (n, result=1) => {
+    if(n <= 1){
+        return result;
+    }
+    result = n*result;
+    return recursiveFactorial(n-1, result)
+}
+
+
+const recursive = recursiveFactorial(5)
+console.log(recursive)
