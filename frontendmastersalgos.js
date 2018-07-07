@@ -57,3 +57,29 @@ const memoizedClosureFactorial = () => {
 
 const factorial = memoizedClosureFactorial()
 console.log(factorial(5))
+
+let input = 5
+
+const memoizedClosureFactorial = (cb) => {
+    let cache = {};
+    return (n) => {
+        if(n in cache){
+            return cache[n]
+        } else {
+            let factorial = cb(n)
+            cache[n] = factorial
+            return factorial
+        }
+    }
+}
+
+function findFactorial(n){
+    let total = 1
+    for(let i = n; i > 0; i--){
+        total *= i
+    }
+    return total
+}
+
+const factorial = memoizedClosureFactorial(findFactorial)
+console.log(factorial(5))
