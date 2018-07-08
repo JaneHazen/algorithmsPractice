@@ -255,3 +255,23 @@ function makeChange(value){
     return minCoins + 1;
 }
 makeChange(50);
+
+// MAKE CHANGE with memoization
+
+const coins = [5, 10, 25, 30]
+const cache = {}
+const makeChange = (value) =>{
+    if(cache[value]) return cache[value]
+    let minCoins = -1;
+    coins.forEach((coin, i) => {
+        if(value - coin >= 0){
+            let currMinCoins = makeChange(value - coin);
+            if(minCoins === -1 || currMinCoins < minCoins){
+                minCoins = currMinCoins;
+            }
+        }
+    });
+    cache[value] = minCoins + 1;
+    return cache[value];
+}
+makeChange(50);
