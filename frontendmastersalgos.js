@@ -219,7 +219,7 @@ function merge(left, right) {
 
 mergeSort([1, 3, 6, 8, 12, 14])
 
-// MAKE CHANGE
+// MAKE CHANGE---- greedy
 
 
 function makeChange(coins, amount){
@@ -237,3 +237,21 @@ function makeChange(coins, amount){
     return coinTotal
 }
 makeChange([5, 10, 25], 50);
+
+// MAKE CHANGE---- brute force
+
+const coins = [5, 10, 25, 30]
+function makeChange(value){
+    if(value === 0) return 0;
+    let minCoins;
+    coins.forEach((coin, i) => {
+        if(value - coin >= 0){
+            let currMinCoins = makeChange(value - coin);
+            if(minCoins === undefined || currMinCoins < minCoins){
+                minCoins = currMinCoins;
+            }
+        }
+    });
+    return minCoins + 1;
+}
+makeChange(50);

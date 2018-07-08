@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="219" column="31" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
+              <caret line="256" column="15" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -154,7 +154,7 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="3963000" />
+      <workItem from="1530979594960" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -282,11 +282,25 @@
       <option name="project" value="LOCAL" />
       <updated>1531002735043</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="FEM merge sort">
+      <created>1531006996698</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531006996698</updated>
+    </task>
+    <task id="LOCAL-00020" summary="FEM make change">
+      <created>1531007698553</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531007698553</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23577000" />
+    <option name="totallyTimeSpent" value="24762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -335,7 +349,9 @@
     <MESSAGE value="FEM recursive factorial memoization" />
     <MESSAGE value="FEM linear search iterative memoization" />
     <MESSAGE value="FEM binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM binary search" />
+    <MESSAGE value="FEM merge sort" />
+    <MESSAGE value="FEM make change" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM make change" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -472,7 +488,7 @@
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="219" column="31" selection-start-line="219" selection-start-column="31" selection-end-line="219" selection-end-column="31" />
+          <caret line="256" column="15" selection-start-line="256" selection-start-column="15" selection-end-line="256" selection-end-column="15" />
         </state>
       </provider>
     </entry>
