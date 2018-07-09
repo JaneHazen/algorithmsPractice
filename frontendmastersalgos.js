@@ -275,3 +275,16 @@ const makeChange = (value) =>{
     return cache[value];
 }
 makeChange(50);
+
+
+function Building(floors) {
+    this.what = "building";
+    this.floors = floors;
+}
+
+
+Building.prototype.countFloors = function(){
+    console.log("I have", this.floors, "floors")
+}
+
+var myHouse = new Building(3);
