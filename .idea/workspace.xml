@@ -29,8 +29,8 @@
       <file leaf-file-name="frontendmastersalgos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="395" column="20" selection-start-line="395" selection-start-column="20" selection-end-line="395" selection-end-column="20" />
+            <state relative-caret-position="645">
+              <caret line="441" column="43" selection-start-line="441" selection-start-column="43" selection-end-line="441" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -154,7 +154,7 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="9432000" />
+      <workItem from="1530979594960" duration="10484000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -338,11 +338,32 @@
       <option name="project" value="LOCAL" />
       <updated>1531171897321</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="FEM implement stack using JS">
+      <created>1531174192476</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1531174192476</updated>
+    </task>
+    <task id="LOCAL-00028" summary="FEM implement stack using JS">
+      <created>1531174229814</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1531174229814</updated>
+    </task>
+    <task id="LOCAL-00029" summary="FEM implement stack using JS">
+      <created>1531174618597</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1531174618597</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29046000" />
+    <option name="totallyTimeSpent" value="30098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-138" y="8" width="1008" height="840" extended-state="0" />
@@ -398,7 +419,8 @@
     <MESSAGE value="FEM OOP building a house" />
     <MESSAGE value="FEM OOP making a tree" />
     <MESSAGE value="FEM OOP making some eggs" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM OOP making some eggs" />
+    <MESSAGE value="FEM implement stack using JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM implement stack using JS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -534,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="395" column="20" selection-start-line="395" selection-start-column="20" selection-end-line="395" selection-end-column="20" />
+        <state relative-caret-position="645">
+          <caret line="441" column="43" selection-start-line="441" selection-start-column="43" selection-end-line="441" selection-end-column="43" />
         </state>
       </provider>
     </entry>

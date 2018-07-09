@@ -396,3 +396,47 @@ myWeeklyMenu.pop();
 console.log(myWeeklyMenu.storage)
 myWeeklyMenu.size();
 
+/// IMPLEMENT STACK WITH OBJECTS
+
+function Stack(capacity) {
+    this.capacity = capacity || Infinity;
+    this.storage = {};
+    this._count = 0;
+}
+
+Stack.prototype.push = function(value) {
+    if (this._count < this.capacity) {
+        this.storage[this._count++] = value;
+        return this._count;
+    }
+    return "max capacity exceeded, remove an element before adding one"
+};
+
+Stack.prototype.pop = function() {
+    if(this._count === 0) {
+        return "no elements, add before popping"
+    }
+    var value = this.storage[--this._count];
+    delete this.storage[this._count];
+    if(this._count < 0){
+        this._count = 0;
+    }
+    return value;
+};
+
+Stack.prototype.peek = function() {
+    return this.storage[this._count -1];
+};
+
+Stack.prototype.count = function() {
+    return this._count;
+};
+
+var myStack = new Stack(3);
+console.log(myStack.push('a', ' should be 1'));
+console.log(myStack.push('b'));
+console.log(myStack.push('c'))
+console.log(myStack.push('d'))
+console.log(myStack.pop())
+console.log(myStack.peek())
+console.log(myStack.count(), 'should be 2')
