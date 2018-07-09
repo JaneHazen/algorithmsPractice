@@ -361,21 +361,21 @@ Stack.prototype.push = function(val) {
 };
 
 Stack.prototype.getArray = function(){
-    let array = this.storage.split(" ")
+    let array = this.storage.split(" ");
     let noWhitespaces = array.filter(function(str){
         return /\S/.test(str);
-    })
-    return noWhitespaces
+    });
+    return noWhitespaces;
 }
 
 Stack.prototype.pop = function(){
-    let array = this.getArray()
+    let array = this.getArray();
     array.pop();
     this.storage = array.join("");
 };
 
 Stack.prototype.size = function(){
-    let array = this.getArray()
+    let array = this.getArray();
     return array.length;
 };
 
