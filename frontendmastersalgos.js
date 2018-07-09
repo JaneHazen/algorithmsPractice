@@ -347,6 +347,7 @@ function whipEggs(crackedEggs){
 
 makeEggs("scrambled", 10);
 
+/// IMPLEMENT A STACK
 
 var Stack = function(){
     this.storage = "";
