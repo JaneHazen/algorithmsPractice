@@ -346,3 +346,52 @@ function whipEggs(crackedEggs){
 }
 
 makeEggs("scrambled", 10);
+
+
+var Stack = function(){
+    this.storage = "";
+};
+
+Stack.prototype.push = function(val) {
+    if(this.storage === ""){
+        this.storage += val + " "
+    }else{
+        this.storage += " " + val + " "
+    }
+};
+
+Stack.prototype.getArray = function(){
+    let array = this.storage.split(" ")
+    let noWhitespaces = array.filter(function(str){
+        return /\S/.test(str);
+    })
+    return noWhitespaces
+}
+
+Stack.prototype.pop = function(){
+    let array = this.getArray()
+    array.pop();
+    this.storage = array.join("");
+};
+
+Stack.prototype.size = function(){
+    let array = this.getArray()
+    return array.length;
+};
+
+var myWeeklyMenu = new Stack();
+
+myWeeklyMenu.push("RedBeans");
+
+myWeeklyMenu.storage
+
+myWeeklyMenu.push("lentilSoup");
+console.log(myWeeklyMenu.storage)
+myWeeklyMenu.pop();
+console.log(myWeeklyMenu.storage)
+myWeeklyMenu.push("orangeSoda")
+console.log(myWeeklyMenu.storage)
+myWeeklyMenu.pop();
+console.log(myWeeklyMenu.storage)
+myWeeklyMenu.size();
+
