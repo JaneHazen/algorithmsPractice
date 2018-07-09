@@ -288,3 +288,22 @@ Building.prototype.countFloors = function(){
 }
 
 var myHouse = new Building(3);
+
+function Tree(apples) {
+    this.apples = apples;
+}
+
+Tree.prototype.subtractApples = function(){
+    this.apples -= 1;
+}
+
+var appleTreee = new Tree(8)
+
+appleTreee.subtractApples();
+appleTreee.subtractApples();
+appleTreee.subtractApples();
+
+Tree.prototype.writeApples = function(){
+    console.log(this.apples, "I've got that many apples")
+}
+appleTreee.writeApples();

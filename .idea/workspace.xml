@@ -29,8 +29,8 @@
       <file leaf-file-name="frontendmastersalgos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+            <state relative-caret-position="339">
+              <caret line="291" selection-start-line="291" selection-end-line="308" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -95,9 +95,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
+    <option name="x" value="-173" />
+    <option name="y" value="10" />
+    <option name="width" value="1260" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +154,7 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="6380000" />
+      <workItem from="1530979594960" duration="7391000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -310,17 +310,31 @@
       <option name="project" value="LOCAL" />
       <updated>1531012164357</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="FEM make  change brute force + memoization">
+      <created>1531168611891</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1531168611891</updated>
+    </task>
+    <task id="LOCAL-00024" summary="FEM OOP building a house">
+      <created>1531170691119</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1531170691119</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25994000" />
+    <option name="totallyTimeSpent" value="27005000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <frame x="-138" y="8" width="1008" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24642393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38128772" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -367,7 +381,8 @@
     <MESSAGE value="FEM make change" />
     <MESSAGE value="FEM make  change brute force" />
     <MESSAGE value="FEM make  change brute force + memoization" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM make  change brute force + memoization" />
+    <MESSAGE value="FEM OOP building a house" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM OOP building a house" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -503,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="277" lean-forward="true" selection-start-line="277" selection-end-line="277" />
+        <state relative-caret-position="339">
+          <caret line="291" selection-start-line="291" selection-end-line="308" selection-end-column="25" />
         </state>
       </provider>
     </entry>
