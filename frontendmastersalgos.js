@@ -307,3 +307,42 @@ Tree.prototype.writeApples = function(){
     console.log(this.apples, "I've got that many apples")
 }
 appleTreee.writeApples();
+
+
+var makeEggs = function(style, n) {
+    var completedEgg;
+    if( style !== "boiled"){
+        var crackedEggs = crackEggs(n);
+        if( style != "scrambled") {
+            completedEgg = fryEgg(crackedEggs);
+        } else {
+            var prepEggs = whipEggs(crackedEggs);
+            completedEgg = fryEgg(prepEggs)
+        }
+
+        console.log("boilin the egg");
+        completedEgg = n;
+    }
+    return n;
+}
+
+function crackEggs(n){
+    console.log("Just cracked " +  n  + " eggs");
+    if(n > 5) {
+        console.log("There's no way to crack this many eggs without breaking one");
+        n -= 1;
+    }
+    return n;
+}
+
+function fryEgg(crackedEggs){
+    console.log("fryin the eggos");
+    return crackedEggs;
+}
+
+function whipEggs(crackedEggs){
+    console.log("whipping the eggs");
+    return crackedEggs;
+}
+
+makeEggs("scrambled", 10);
