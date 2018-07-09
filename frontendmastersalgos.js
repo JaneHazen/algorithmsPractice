@@ -440,3 +440,52 @@ console.log(myStack.push('d'))
 console.log(myStack.pop())
 console.log(myStack.peek())
 console.log(myStack.count(), 'should be 2')
+
+//// IMPLEMENT STACK USING OBJECTS
+
+function Stack(capacity){
+    this.capacity = capacity || Infinity;
+    this._count = 0;
+    this.storage = {};
+}
+
+Stack.prototype.push = function(value){
+    if(this._count < this.capacity){
+        this._count++;
+        this.storage[this._count] = value;
+        return "Added: " + this.storage[this._count];
+    }
+    return "You're at capacity"
+}
+
+Stack.prototype.pop = function(){
+    if( this._count > 0 ){
+        delete this.storage[this._count]
+        --this._count
+        if( this._count < 0) {
+            this._count = 0;
+        }
+        return "Popped"
+    } else {
+        return "Add something first, fool"
+    }
+}
+
+Stack.prototype.peek = function(){
+    return this.storage[this._count]
+}
+
+myStack = new Stack(3);
+console.log(myStack.push('1'));
+console.log(myStack.push('2'));
+console.log(myStack.push('3'))
+console.log(myStack.push('4'))
+console.log(myStack.pop())
+console.log(myStack.pop())
+console.log(myStack.pop())
+console.log(myStack.pop())
+console.log(myStack.push('1'));
+console.log(myStack.peek())
+console.log(myStack.push('2'));
+console.log(myStack.peek())
+
