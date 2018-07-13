@@ -456,12 +456,12 @@ Stack.prototype.push = function(value){
         return "Added: " + this.storage[this._count];
     }
     return "You're at capacity"
-}
+};
 
 Stack.prototype.pop = function(){
     if( this._count > 0 ){
         delete this.storage[this._count]
-        --this._count
+        --this._count;
         if( this._count < 0) {
             this._count = 0;
         }
@@ -469,23 +469,23 @@ Stack.prototype.pop = function(){
     } else {
         return "Add something first, fool"
     }
-}
+};
 
 Stack.prototype.peek = function(){
     return this.storage[this._count]
-}
+};
 
 myStack = new Stack(3);
 console.log(myStack.push('1'));
 console.log(myStack.push('2'));
-console.log(myStack.push('3'))
-console.log(myStack.push('4'))
-console.log(myStack.pop())
-console.log(myStack.pop())
-console.log(myStack.pop())
-console.log(myStack.pop())
+console.log(myStack.push('3'));
+console.log(myStack.push('4'));
+console.log(myStack.pop());
+console.log(myStack.pop());
+console.log(myStack.pop());
+console.log(myStack.pop());
 console.log(myStack.push('1'));
-console.log(myStack.peek())
+console.log(myStack.peek());
 console.log(myStack.push('2'));
-console.log(myStack.peek())
+console.log(myStack.peek());
 
