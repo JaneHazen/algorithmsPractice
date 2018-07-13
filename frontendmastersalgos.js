@@ -258,10 +258,10 @@ makeChange(50);
 
 // MAKE CHANGE with memoization
 
-const coins = [5, 10, 25, 30]
-const cache = {}
+const coins = [5, 10, 25, 30];
+const cache = {};
 const makeChange = (value) =>{
-    if(cache[value]) return cache[value]
+    if(cache[value]) return cache[value];
     let minCoins = -1;
     coins.forEach((coin, i) => {
         if(value - coin >= 0){
@@ -273,7 +273,7 @@ const makeChange = (value) =>{
     });
     cache[value] = minCoins + 1;
     return cache[value];
-}
+};
 makeChange(50);
 
 
@@ -285,9 +285,9 @@ function Building(floors) {
 
 Building.prototype.countFloors = function(){
     console.log("I have", this.floors, "floors")
-}
+};
 
-var myHouse = new Building(3);
+let myHouse = new Building(3);
 
 function Tree(apples) {
     this.apples = apples;
@@ -295,9 +295,9 @@ function Tree(apples) {
 
 Tree.prototype.subtractApples = function(){
     this.apples -= 1;
-}
+};
 
-var appleTreee = new Tree(8)
+let appleTreee = new Tree(8)
 
 appleTreee.subtractApples();
 appleTreee.subtractApples();
@@ -305,7 +305,7 @@ appleTreee.subtractApples();
 
 Tree.prototype.writeApples = function(){
     console.log(this.apples, "I've got that many apples")
-}
+};
 appleTreee.writeApples();
 
 
