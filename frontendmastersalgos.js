@@ -489,3 +489,27 @@ console.log(myStack.peek());
 console.log(myStack.push('2'));
 console.log(myStack.peek());
 
+
+//make a pure function bar(..) to wrap around foo(..)
+
+function foo(x) {
+    y++;
+    z = x * y;
+}
+
+var y = 5, z;
+
+foo(20);
+z;
+foo(25);
+z;
+
+function bar(x, y) {
+    function foo(x){
+        y++;
+        z = x * y;
+    }
+    foo(x);
+    return [y, z]
+}
+

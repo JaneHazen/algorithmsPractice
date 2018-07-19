@@ -29,8 +29,8 @@
       <file leaf-file-name="frontendmastersalgos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2361">
-              <caret line="307" column="2" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="2" />
+            <state relative-caret-position="563">
+              <caret line="497" column="12" selection-start-line="497" selection-start-column="12" selection-end-line="497" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -95,8 +95,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-173" />
-    <option name="y" value="10" />
+    <option name="x" value="130" />
+    <option name="y" value="17" />
     <option name="width" value="1260" />
     <option name="height" value="1050" />
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="11998000" />
+      <workItem from="1530979594960" duration="13446000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -373,14 +373,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531177017663</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="FEM review">
+      <created>1531456580999</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1531456580999</updated>
+    </task>
+    <task id="LOCAL-00033" summary="FEM review">
+      <created>1531503078931</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1531503078931</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31612000" />
+    <option name="totallyTimeSpent" value="33060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-138" y="8" width="1008" height="840" extended-state="0" />
+    <frame x="104" y="14" width="1008" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38128772" />
@@ -409,7 +423,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add OneAway String method" />
     <MESSAGE value="Add LengthOfLastWord Method" />
     <MESSAGE value="add sort array of three numbers" />
     <MESSAGE value="minmoves array" />
@@ -434,7 +447,8 @@
     <MESSAGE value="FEM implement stack using JS" />
     <MESSAGE value="FEM implement stack using objects JS" />
     <MESSAGE value="FEM another stack using JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM another stack using JS" />
+    <MESSAGE value="FEM review" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM review" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays.js">
@@ -570,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2361">
-          <caret line="307" column="2" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="2" />
+        <state relative-caret-position="563">
+          <caret line="497" column="12" selection-start-line="497" selection-start-column="12" selection-end-line="497" selection-end-column="12" />
         </state>
       </provider>
     </entry>
