@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0758e5e4-c930-48ab-85f0-c504a2dbe38a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontendmastersalgos.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontendmastersalgos.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="frontendmastersalgos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="497" column="12" selection-start-line="497" selection-start-column="12" selection-end-line="497" selection-end-column="12" />
+            <state relative-caret-position="495">
+              <caret line="511" selection-start-line="511" selection-end-line="511" />
             </state>
           </provider>
         </entry>
@@ -96,7 +95,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="130" />
-    <option name="y" value="17" />
+    <option name="y" value="16" />
     <option name="width" value="1260" />
     <option name="height" value="1050" />
   </component>
@@ -154,7 +153,8 @@
       <workItem from="1530392510460" duration="6678000" />
       <workItem from="1530591514474" duration="2813000" />
       <workItem from="1530927508678" duration="1482000" />
-      <workItem from="1530979594960" duration="13446000" />
+      <workItem from="1530979594960" duration="13723000" />
+      <workItem from="1532026198714" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="adding to the strings">
       <created>1530391714339</created>
@@ -387,14 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531503078931</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="FEM functional programming foo-bar wrapper">
+      <created>1531960335367</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1531960335367</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33060000" />
+    <option name="totallyTimeSpent" value="33935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="14" width="1008" height="840" extended-state="0" />
+    <frame x="104" y="13" width="1008" height="840" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38128772" />
@@ -423,7 +430,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add LengthOfLastWord Method" />
     <MESSAGE value="add sort array of three numbers" />
     <MESSAGE value="minmoves array" />
     <MESSAGE value="move all zeros" />
@@ -448,9 +454,41 @@
     <MESSAGE value="FEM implement stack using objects JS" />
     <MESSAGE value="FEM another stack using JS" />
     <MESSAGE value="FEM review" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEM review" />
+    <MESSAGE value="FEM functional programming foo-bar wrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEM functional programming foo-bar wrapper" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" column="29" selection-start-line="196" selection-start-column="29" selection-end-line="196" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="278" selection-start-line="278" selection-end-line="304" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8687">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Arrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3332">
@@ -584,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontendmastersalgos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="497" column="12" selection-start-line="497" selection-start-column="12" selection-end-line="497" selection-end-column="12" />
+        <state relative-caret-position="495">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
         </state>
       </provider>
     </entry>

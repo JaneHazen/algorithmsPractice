@@ -500,9 +500,9 @@ function foo(x) {
 var y = 5, z;
 
 foo(20);
-z;
+console.log(z);
 foo(25);
-z;
+console.log(z);
 
 function bar(x, y) {
     function foo(x){
